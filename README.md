@@ -8,8 +8,8 @@ Machine learning can be classified into two categories:
 - *Supervised Learning* :In this case we are given the data set(called training_set)with input values and its corresponding outputs.Based on this set we train our model to predict new inputs. It can be classified further into two categories 
   - *Regression Problem*- Here we form a continous function and try to map inputs to the given outputs using this function.Example Given a large sample of house size with its price ,predict price with house size not in data set.
   - *Classification Problem*-Here we form a function with maps input to discrete output.Example Given a patient with a tumor, we have to predict whether the tumor is malignant or benign.This is also called called logistic regression problem.
-
--*Unsupervised Learning* :In this case we have no labelled data by this I mean we just have inputs and no outputs associated with it. It is used to draw inferences from datasets consisting of input data without labeled responses. It is also further classified as :
+  
+ - *Unsupervised Learning*:In this case we have no labelled data by this I mean we just have inputs and no outputs associated with it. It is used to draw inferences from datasets consisting of input data without labeled responses. It is also further classified as :
    - *Clustering Problem*-Here we divide the large data set into different clusters(groups) that are somehow similar or related by different variables.
    - *Non Clustering Problem*-Here we dont have to group rather we distinguish one object from another.Example From a cocktail party we have data set of voices on microphone and we want to identify individual voices and music from a mesh of sounds at a cocktail party.
 
@@ -86,4 +86,4 @@ The power of neural network can be seen by executing the code network.py. I got 
 5. net.compute(training_data, 30, 10, 3.0, test_data=test_data)
 
 The code starts executing and gives the accuracy after each epoch(for now you may refer this as "one cycle of learning").Here's the snapshot
-![Imgur](http://i.imgur.com/B0cgHWw.png "Command Prompt")
+![Imgur](http://i.imgur.com/B0cgHWw.png "Com
