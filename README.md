@@ -93,7 +93,7 @@ Since the error function E(X,theta)  defines a fairly complex function (it is a 
 
 A major advantage of gradient descent is that it can be used for online learning, since the parameters are not solved in one calculation but are instead gradually improved by moving in the direction of the negative gradient. Thus, if input-output pairs are arriving in a sequential fashion, the ANN can perform gradient descent on one input-output pair for a certain number of steps, and then do the same once the next input-output pair arrives. For an appropriate choice of step size n(eta), this approach can yield results similar to gradient descent on the entire dataset X (known as batch learning).
 
-![alt text](http://hi.csdn.net/attachment/201202/19/0_13296568341m44.gif "gradient Descent")
+![alt text](http://studentdeng.github.com/images/ml/14.png "gradient Descent")
 
 As it is clear from the figure that because gradient descent is a local method (the step direction is determined by the gradient at a single point), it can only find local minima.Since if start from different red buldges we end up at different minima. While this is generally a significant problem for most optimization applications, recent research has suggested that finding local minima is not actually an issue for ANNs, since the vast majority of local minima are evenly distributed and similar in magnitude for large ANNs.
 
