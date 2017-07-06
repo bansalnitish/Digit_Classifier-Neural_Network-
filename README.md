@@ -21,7 +21,10 @@ The artificial equivalent of a neuron is a node (also sometimes called neurons, 
               ϕ(∑wiai)=ϕ(w.transpose().a)
 ```
 Visually it looks like 
+
 ![alt text](https://deeplearning4j.org/img/perceptron_node.png "Neuron")
+
+
 There are several canonical activation functions. For instance, we can use a linear activation function: 
 ```sh
 ϕ(w,a)=w.transpose()*a
