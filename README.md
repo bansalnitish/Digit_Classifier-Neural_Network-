@@ -42,8 +42,10 @@ Neural networks, with their remarkable ability to derive meaning from complicate
 I implemented logistic regression problem of digit classifier using neural networks.As said earlier neuron have take many canonical activation function,but for logistic regression sigmoid is an apt choice. Sigmoid function is a contionous function so any small change in weights associated with networks brings changes noticeable by using sigmoid function. Sigmoid function is shown here
 ![alt text](https://ml4a.github.io/images/figures/sigmoid.png "sigmoid function")
 
-Now moving to the neuron using sigmoid function,here we have some inputs x0,x1 and x2 along with there respective weights w1,w1,w2 and a term called Bias associated with a neuron.As described above the summation of (wi*xi) is fed to the neuron and the output is calculated as sigmoid() of this summation.
-![alt text](https://camo.githubusercontent.com/03263c81130b6b49ed681422520d0fa101d30377/687474703a2f2f692e696d6775722e636f6d2f644f6b543959392e706e67 "Neuron")
+Now moving to the neuron using sigmoid function,here we have some inputs x0,x1 and x2 along with there respective weights w1,w1,w2 and a term called Bias associated with a neuron. As described above the summation of (wi*xi) is fed to the neuron and the output is calculated as sigmoid() of this summation.
+
+![Sigmoid Neuron](http://i.imgur.com/dOkT9Y9.png)
+
 Quick takeaway:
   - Neural networks are formed from large no. of sigmoid neurons.The name follows from a mathemaatical function sigmoid(z)=1.0/(1.0+exp(-z)).
  - B is called the bias
