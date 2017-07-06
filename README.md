@@ -86,4 +86,4 @@ The power of neural network can be seen by executing the code network.py. I got 
 5. net.compute(training_data, 30, 10, 3.0, test_data=test_data)
 
 The code starts executing and gives the accuracy after each epoch(for now you may refer this as "one cycle of learning").Here's the snapshot
-![Imgur](http://i.imgur.com/B0cgHWw.png "Com
+![Imgur](http://i.imgur.com/B0cgHWw.png "Command Prompt")
