@@ -10,7 +10,7 @@ Machine learning can be classified into two categories:
   - *Classification Problem*-Here we form a function with maps input to discrete output.Example Given a patient with a tumor, we have to predict whether the tumor is malignant or benign.This is also called called logistic regression problem.
   
  - *Unsupervised Learning*:In this case we have no labelled data by this I mean we just have inputs and no outputs associated with it. It is used to draw inferences from datasets consisting of input data without labeled responses. It is also further classified as :
-   - *Clustering Problem*-Here we divide the large data set into different clusters(groups) that are somehow similar or related by different variables.
+   - *Clustering Problem*-Here we divide the large data set into different clusters(groups) that are somehow similar or related by different variables.Example in market, segment customers according to their similarities to do targeted marketing.
    - *Non Clustering Problem*-Here we dont have to group rather we distinguish one object from another.Example From a cocktail party we have data set of voices on microphone and we want to identify individual voices and music from a mesh of sounds at a cocktail party.
 
 ## What are Neural Networks ?
