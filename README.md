@@ -1,4 +1,4 @@
-# Handwritten Digit Classifier
+## Handwritten Digit Classifier
 This is an Implementation of Digit Classifier using Neural Networks.
 
 ## A bit about Machine Learning
